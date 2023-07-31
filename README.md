@@ -1,6 +1,6 @@
-# Honey Rae Client
+# Loncotes County Library
 
-This repo is the starting code for the Honey Rae's API explorer chapter in the NSS .NET curriculum.
+This repo is the starting code for the Loncotes County Library client chapter in the NSS .NET curriculum.
 
 ## Setup
 
