@@ -59,7 +59,7 @@ export default function CreateMaterial() {
           >
             <option value="0">Choose a Genre</option>
             {genres.map((g) => (
-              <option value={g.id}>{g.name}</option>
+              <option key={g.id} value={g.id}>{g.name}</option>
             ))}
           </Input>
         </FormGroup>
@@ -75,7 +75,7 @@ export default function CreateMaterial() {
           >
             <option value="0">Choose a Material Type</option>
             {materialTypes.map((mt) => (
-              <option value={mt.id}>{mt.name}</option>
+              <option key={mt.id} value={mt.id}>{mt.name}</option>
             ))}
           </Input>
         </FormGroup>
